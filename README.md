@@ -4,5 +4,5 @@
 * Install [Docker](https://docs.docker.com/get-started/)
 * Build: `docker-compose build`
 * Run: `docker-compose up`
-* Execute tasks: `docker-compose exec <container_name> <cmd>`. 
-  * e.g. `docker-compose exec cli command:myimportcommand`
+* Execute tasks: `docker run -it --rm cli:latest <cmd>`. 
+  * e.g. `docker run -it --rm cli:latest command:myimportcommand`
